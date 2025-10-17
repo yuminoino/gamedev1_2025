@@ -483,7 +483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c4d69da94b0ff479542ef5b55600fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1487861639}
+  offset: {x: 0, y: 5, z: -7}
 --- !u!1001 &690802080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -961,7 +962,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d70fda6cea3705449ab1a6f46a181d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  verticalSpeed: 20
+  turnSpeed: 50
+  horizontalInput: 0
+  forwardlInput: 0
+  jumpInput: 0
 --- !u!54 &1487861645
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -970,7 +975,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487861639}
   serializedVersion: 4
-  m_Mass: 3
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
