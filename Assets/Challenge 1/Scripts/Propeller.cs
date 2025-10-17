@@ -1,17 +1,16 @@
 using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+public class Propeller : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
-    public GameObject player;
-    public Vector3 offset = new Vector3(0, 2, -7);
+
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        transform.position = player.transform.position + offset ;
+        
     }
 }
